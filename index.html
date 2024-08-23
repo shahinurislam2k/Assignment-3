@@ -26,6 +26,8 @@
                 clifford: '#da373d',
                 'a3-primary':'#ABEF5F',
                 'a3-primary-bg':'#C4C4C4',
+                'a3-description':'#494949',
+                'a3-title':'#212121',
                
               }
             }
@@ -43,17 +45,14 @@
     <!-- Header Section -->
      <header class="container mx-auto">
        <!-- Navbar -->
-        <nav class="">
+        <nav class="mb-8 md:mb-14">
             <div class="justify-between  navbar">
-
                <!-- logo side -->
                 <div class="lg:w-[200px] navbar flex ">
-
                   <!-- logo side -->
                   <div class="flex-1 ">
                     <a class="btn btn-ghost text-2xl md:text-3xl"><i class="fa-solid fa-arrow-right -rotate-45 bg-a3-primary text-black p-1 rounded-full"></i>Rinterio</a>
                   </div>
-
                   <!-- dropdown -->
                   <div class="dropdown dropdown-end ">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-white rounded-full">
@@ -100,7 +99,7 @@
                         <i class="fa-solid fa-cart-shopping"></i>
                     </div>
                     <div>
-                        <button class=""> <a class="btn bg-a3-primary text-sm ">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-xl"></i></a></button>
+                        <button class=""> <a class="btn bg-a3-primary text-sm rounded-full">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full"></i></a></button>
                     </div>
                      
                 </div>
@@ -108,14 +107,25 @@
         </nav>
         <!-- Hero Section -->
          <section>
+         <div class="space-y-6 mb-8 md:mb-24 px-5 ">
+           <!-- hero images -->
+           <div class="w-4/5 mx-auto">
+            <img class="mx-auto" src="./images/banner.png" alt="House">
+           </div>
+           <!-- hero content -->
+            <div class="text-center space-y-5 md:space-y-8 md:w-3/4 mx-auto">
+              <h1 class="text-3xl md:text-6xl font-bold text-a3-title">A barn house of this design has a striking appearance</h1>
+              <p class="text-sm	 md:text-base text-a3-description ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal  accents, and large windows that flood the space with natural light.</p>
+              <button class=""> <a class="btn px-20 md:px-10 rounded-full bg-a3-primary md:text-sm ">View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full"></i></a></button>
 
-
+            </div>
+         </div>
          </section>
 
      </header>
 
     <!-- Main Section -->
-     <main>
+     <main class="container mx-auto bg-a3-primary-bg h-96">
       <section>
 
       </section>
