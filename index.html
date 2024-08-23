@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en"  data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,8 +24,8 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                'a3-primary': '#ABEF5F',
-                'a3-primary-bg': '',
+                'a3-primary':'#ABEF5F',
+                'a3-primary-bg':'#C4C4C4',
                
               }
             }
@@ -41,11 +41,87 @@
 </head>
 <body class="font-manrope">
     <!-- Header Section -->
-     <header>
-        <h1>shahin</h1>
+     <header class="container mx-auto">
+       <!-- Navbar -->
+        <nav class="">
+            <div class="justify-between  navbar">
+
+               <!-- logo side -->
+                <div class="lg:w-[200px] navbar flex ">
+
+                  <!-- logo side -->
+                  <div class="flex-1 ">
+                    <a class="btn btn-ghost text-2xl md:text-3xl"><i class="fa-solid fa-arrow-right -rotate-45 bg-a3-primary text-black p-1 rounded-full"></i>Rinterio</a>
+                  </div>
+
+                  <!-- dropdown -->
+                  <div class="dropdown dropdown-end ">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-white rounded-full">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-[24px] w-[24px]"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                      <li><a class="font-bold " >Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Menu bar -->
+                <div class=" lg:flex-1 navbar hidden lg:flex">
+                  <ul class="menu menu-horizontal mx-auto space-x-5">
+                      <li><a class="font-bold ">Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+
+                <!-- login -->
+                <div class="lg:w-[260px] navbar-end hidden space-x-5 lg:flex">
+                    <div class="space-x-5">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div>
+                        <button class=""> <a class="btn bg-a3-primary text-sm ">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-xl"></i></a></button>
+                    </div>
+                     
+                </div>
+              </div>
+        </nav>
+        <!-- Hero Section -->
+         <section>
+
+
+         </section>
+
      </header>
+
     <!-- Main Section -->
-     <main></main>
+     <main>
+      <section>
+
+      </section>
+
+     </main>
+
     <!-- Footer Section -->
      <footer></footer>
     
