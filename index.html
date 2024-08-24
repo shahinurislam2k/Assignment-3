@@ -25,7 +25,7 @@
               colors: {
                 clifford: '#da373d',
                 'a3-primary':'#ABEF5F',
-                'a3-primary-bg':'#C4C4C4',
+                'a3-primary-bg':'#f4f4f4',
                 'a3-description':'#494949',
                 'a3-title':'#212121',
                
@@ -43,15 +43,15 @@
 </head>
 <body class="font-manrope">
     <!-- Header Section -->
-     <header class="container mx-auto">
+     <header class="bg-gradient-to-r from-[#fbfbfb] to-[#fbfbfb]">
        <!-- Navbar -->
-        <nav class="mb-8 md:mb-14">
+        <nav class="container mx-auto mb-8 md:mb-14">
             <div class="justify-between  navbar">
                <!-- logo side -->
                 <div class="lg:w-[200px] navbar flex ">
                   <!-- logo side -->
                   <div class="flex-1 ">
-                    <a class="btn btn-ghost text-2xl md:text-3xl"><i class="fa-solid fa-arrow-right -rotate-45 bg-a3-primary text-black p-1 rounded-full"></i>Rinterio</a>
+                    <a class="btn btn-ghost text-2xl md:text-3xl"><i class="fa-solid fa-arrow-right -rotate-45 bg-a3-primary text-black p-2 rounded-full mx-auto "></i>Rinterio</a>
                   </div>
                   <!-- dropdown -->
                   <div class="dropdown dropdown-end ">
@@ -93,21 +93,21 @@
                 </div>
 
                 <!-- login -->
-                <div class="lg:w-[260px] navbar-end hidden space-x-5 lg:flex">
+                <div class="lg:w-[270px] navbar-end hidden space-x-5 lg:flex">
                     <div class="space-x-5">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-magnifying-glass bg-white rounded-full p-2 "></i>
+                        <i class="fa-solid fa-cart-shopping  p-2 bg-white rounded-full"></i>
                     </div>
                     <div>
-                        <button class=""> <a class="btn bg-a3-primary text-sm rounded-full">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full"></i></a></button>
+                        <button class=""> <a class="btn bg-a3-primary text-sm rounded-full">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1  rounded-full"></i></a></button>
                     </div>
                      
                 </div>
               </div>
         </nav>
         <!-- Hero Section -->
-         <section>
-         <div class="space-y-6 mb-8 md:mb-24 px-5 ">
+         <section class="container mx-auto">
+         <div class="space-y-6 pb-8 md:pb-24 px-5 ">
            <!-- hero images -->
            <div class="w-4/5 mx-auto">
             <img class="mx-auto" src="./images/banner.png" alt="House">
@@ -117,17 +117,49 @@
               <h1 class="text-3xl md:text-6xl font-bold text-a3-title">A barn house of this design has a striking appearance</h1>
               <p class="text-sm	 md:text-base text-a3-description ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal  accents, and large windows that flood the space with natural light.</p>
               <button class=""> <a class="btn px-20 md:px-10 rounded-full bg-a3-primary md:text-sm ">View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full"></i></a></button>
-
             </div>
          </div>
          </section>
-
      </header>
 
     <!-- Main Section -->
-     <main class="container mx-auto bg-a3-primary-bg h-96">
-      <section>
+     <main class="bg-a3-primary-bg">
+      <!-- About Us Section -->
+      <section class="container mx-auto px-5 md:px-0 py-4 md:py-24  space-y-4 relative">
+        <div class=" md:flex  md:space-x-9">
+          <!-- About Us title -->
+          <div class="flex-1 space-y-4 md:space-y-8 ">
+            <div class=" text-center space-y-4 md:text-start">
+              <button class=""><a class="btn bg-white text-base rounded-full"><i class="fa-solid fa-arrow-right"></i>About Us</a></button>
+              <h1 class="text-2xl space-y-4 md:text-[40px] font-extrabold md:w-3/4">We design thoughtful, liveable spaces</h1>
+              <p class=" text-sm md:text-base a3-description ">The barn house captivates with its blend of rustic charm and 
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+              <!--About Us Card-1 -->
+              <div  class=" flex space-x-3 bg-white p-6 rounded-xl">
+                <div><img src="./images/commercial.png" alt=""></div>
+                <div class="space-y-2">
+                  <h2 class="text-base md:text-xl font-bold">Residential</h2>
+                  <p class="text-base a3-description md:w-3/4">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+              <!--About Us Card-2 -->
+              <div  class=" flex space-x-3 bg-white p-6 rounded-xl">
+                <div><img src="./images/residential.png" alt=""></div>
+                <div class="space-y-2">
+                  <h2 class="text-base md:text-xl font-bold">Residential</h2>
+                  <p class="text-base a3-description md:w-3/4">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+          </div>
+          <!-- About Us Images -->
+           <div class=" mt-4 md-mt-0">
+            <img class="min-w-full" src="./images/Rectangle.png" alt="">
 
+           </div>
+
+        </div>
+        <div class="hidden md:flex"><img class="md:absolute md:top-11 md:-left-10 sm: " src="./images/Vector.png" alt=""></div>
       </section>
 
      </main>
